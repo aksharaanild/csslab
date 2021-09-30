@@ -1,0 +1,155 @@
+body{
+        	margin:0;
+        	padding: 0px;
+        	font-size: 10px;
+        	background-color:#393F49 ;
+        	font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial,sans-serif;
+        	
+        }
+
+        #boxes{
+        	position: relative;
+        	margin: 10% auto;
+        	height: 450px;
+            width:800px;
+            box-shadow:0 4px 4px #2F353F;
+
+        }
+        
+        .left-box{
+            
+            width:500px;
+            height: 450px;
+            padding: 40px;
+            position: absolute;
+            box-sizing: border-box;
+            background-color: #151A22;
+            color: white;
+            top: 0;
+            left: 0px;
+            margin-top: 30px;
+            box-shadow:0 4px 5px #2F353F;
+
+        }
+       
+        .material-icons{
+            font-size: 10px;
+            color:grey;
+        }
+        
+        .right-box{
+            width:300px;
+            height: 450px;
+            background-color:#00A876; 
+            box-sizing: border-box;
+            padding: 45px;
+            padding-top: 130px;
+            position: absolute;
+            color: white;
+            top: 0px;
+            right: 0px;
+            margin-top: 30px;
+            box-shadow:0 5px 4px #2F353F;
+
+        }
+            
+
+        input[type="text"],input[type="password"]{
+        
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            padding: 4px;
+            width:220px;
+            height:32px;
+            border: none;
+            outline: none;
+            font-size: 10px;
+            border-bottom: 1px solid white;
+            text-align: left;
+            background-color: transparent;
+            color: white;
+           
+
+        }
+
+        .login-button{
+            margin-bottom: 28px;
+            width:75px;
+            height: 32px;
+            background-color: #FFFFFF;
+            border:none;
+            color:#00A876 ;
+            cursor: pointer;
+            text-transform:uppercase; 
+            position: relative;
+            border-radius: 2px;
+        }
+     
+        .register-button{
+            color: white;
+            background-color: #00A876;
+            width: 100px;
+            height: 15px; 
+            border:none;
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 2px;
+        }
+
+        .top-box{
+            width: 780px;
+            height:10px;
+            background-color: #E8E9F1;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            border-radius: 2px 2px;
+            box-shadow: 4px 4px #2F353F;
+        }
+
+        #circle1{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: red;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+         #circle2{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: yellow;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+         #circle3{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: #00A876 ;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+        .bottom-button{
+            font-size:8px;
+            color: grey;
+            margin-top:140px;
+            background: transparent;
+            border: none;
+
+        }
+
+        .icon
+            {
+                width: 100px;
+                height:50px;
+            }
+        

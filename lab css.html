@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	<meta name="viewport" content="width=device-width", initial-scale="1">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+	
+
+	<style>
+		body{
+        	margin:0;
+        	padding: 0px;
+        	font-size: 10px;
+        	background-color:#393F49 ;
+        	font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial,sans-serif;
+        	
+        }
+
+        #boxes{
+        	position: relative;
+        	margin: 10% auto;
+        	height: 450px;
+            width:800px;
+            box-shadow:0 4px 4px #2F353F;
+
+        }
+        
+        .left-box{
+            
+            width:500px;
+            height: 450px;
+            padding: 40px;
+            position: absolute;
+            box-sizing: border-box;
+            background-color: #151A22;
+            color: white;
+            top: 0;
+           
+            margin-top: 30px;
+            box-shadow:0 4px 5px #2F353F;
+
+        }
+       
+
+        .material-icons{
+            font-size: 10px;
+            color:grey;
+        }
+        
+        .right-box{
+            width:300px;
+            height: 450px;
+            background-color:#00A876; 
+            box-sizing: border-box;
+            padding: 45px;
+            padding-top: 130px;
+            position: absolute;
+            color: white;
+            top: 0px;
+            right: 0px;
+            margin-top: 30px;
+            box-shadow:0 5px 4px #2F353F;
+
+        }
+            
+
+        input[type="text"],input[type="password"]{
+        
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            padding: 4px;
+            width:220px;
+            height:32px;
+            border: none;
+            outline: none;
+            font-size: 10px;
+            border-bottom: 1px solid white;
+            text-align: left;
+            background-color: transparent;
+            color:white;
+
+        }
+
+        .login-button{
+            margin-bottom: 28px;
+            width:75px;
+            height: 32px;
+            background-color: #FFFFFF;
+            border:none;
+            color:#00A876 ;
+            cursor: pointer;
+            text-transform:uppercase; 
+            position: relative;
+            border-radius: 2px;
+        }
+     
+        .register-button{
+            color: white;
+            background-color: #00A876;
+            width: 100px;
+            height: 15px; 
+            border:none;
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 2px;
+        }
+
+        .top-box{
+            width: 780px;
+            height:10px;
+            background-color: #E8E9F1;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            border-radius: 2px 2px;
+            box-shadow: 4px 4px #2F353F;
+        }
+
+        #circle1{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: red;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+         #circle2{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: yellow;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+         #circle3{
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background-color: #00A876 ;
+            top:20px;
+            left: 20px;
+            float: left;
+            margin:4px;
+        }
+        .bottom-button{
+            font-size:8px;
+            color: grey;
+            margin-top:140px;
+            background: transparent;
+            border: none;
+
+        }
+
+        .image{ 
+        	float: left;
+        	height:20px;
+        	width: 80px;
+
+         }
+
+        .icon
+            {
+                width: 40px;
+                height:50px;
+               
+            }
+
+        
+        
+	</style>
+
+<body>
+<div id="boxes">
+   
+    <div class="top-box">
+    	<div id="circle1"></div>
+    	<div id="circle2"></div>
+    	<div id="circle3"></div>
+    </div>
+
+	<div class="left-box">
+
+        <div class="icon" ><img src="D:\Study\download.png" class="image"></div>
+
+		<span style="font-size: 30px;">Welcome</span><br>
+		<span style="color: grey; font-size: 18px">Register for an ERC account here</span><br><br>
+		<p style="color: grey; font-size:10px">Register for a free ERC account here and get access to the webshop, academy and MY ERC membership portal. Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</p><br><br>
+		<botton class="register-button" style="float: left;">REGISTER HERE</botton>
+
+		<span><button class="bottom-button" style="position: absolute; left: 35px;">CHOOSE LANGUAGE<i class="material-icons">arrow_drop_down</i></button>
+        <button class="bottom-button">HELP CENTER</button>
+        <button class="bottom-button">WEBSITE</button>
+        <button class="bottom-button">TEC WEBSHOP</button></span>
+		
+	</div>
+
+	<div class="right-box">
+	<span style="font-size: 18px">Or login to you account</span>
+     
+	<input type="text" name="Your email" value="Your email" style="margin-top: 8px" >
+	<input type="text" name="password" value="password"><br>
+
+    <span><button class="login-button" >Login</button>
+    	<input type="text" name="forget password" value="Forget password"  style="width: 100px; border: none; "></span>
+
+
+    </div>
+
+
+</div>
+</body>
+</html>
